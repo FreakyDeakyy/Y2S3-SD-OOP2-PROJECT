@@ -1,8 +1,8 @@
-package com.example.movieapplication;
+package com.example.movieapplication.Model;
 
 import java.util.Random;
 
-public class Manager extends User {
+public class Manager extends AbstractUser {
     private int aManagerID;
     Random rand = new Random();
 
@@ -17,7 +17,9 @@ public class Manager extends User {
         this.aManagerID = pManagerID;
     }
 
-    public int getManagerID() { return aManagerID; }
+    public int getManagerID() {
+        return aManagerID;
+    }
 
     @Override
     public void setUserID() {

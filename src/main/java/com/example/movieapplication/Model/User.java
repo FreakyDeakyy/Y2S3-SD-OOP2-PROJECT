@@ -1,6 +1,6 @@
-package com.example.movieapplication;
+package com.example.movieapplication.Model;
 
-public interface UserRequirements {
+public interface User {
     void setUserID();
 
     void setEmail();
