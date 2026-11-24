@@ -2,6 +2,8 @@ package com.example.movieapplication;
 
 import java.io.IOException;
 
+import com.example.movieapplication.Model.TestingHelper;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -15,5 +17,6 @@ public class HelloApplication extends Application {
         stage.setTitle("Main Page");
         stage.setScene(scene);
         stage.show();
+        TestingHelper.testMovieCreation();
     }
 }
