@@ -1,6 +1,6 @@
 package com.example.movieapplication;
 
-public abstract class User {
+public abstract class User implements UserRequirements{
     private int aUserID;
     private String aEmail;
     private String aFirstName;
