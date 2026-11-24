@@ -1,12 +1,12 @@
-package com.example.movieapplication;
+package com.example.movieapplication.Model;
 
-public abstract class User implements UserRequirements{
+public abstract class AbstractUser implements User {
     private int aUserID;
     private String aEmail;
     private String aFirstName;
     private String aLastName;
 
-    public User(int pUserID, String pEmail, String pFirstName, String pLastName) {
+    public AbstractUser(int pUserID, String pEmail, String pFirstName, String pLastName) {
         this.setUserID(pUserID);
         this.setEmail(pEmail);
         this.setFirstName(pFirstName);
@@ -37,11 +37,19 @@ public abstract class User implements UserRequirements{
         this.aLastName = pLastName;
     }
 
-    public int getUserID() { return aUserID; }
+    public int getUserID() {
+        return aUserID;
+    }
 
-    public String getEmail() { return aEmail; }
+    public String getEmail() {
+        return aEmail;
+    }
 
-    public String getFirstName() { return aFirstName; }
+    public String getFirstName() {
+        return aFirstName;
+    }
 
-    public String getLastName() { return aLastName; }
+    public String getLastName() {
+        return aLastName;
+    }
 }
