@@ -8,15 +8,15 @@ public class Screening {
     private String aTime;
     private long aPrice;
 
-    public Screening(int pScreeningID, int pMovieID, String pDate, String pTime, long pPrice) {
-        this.setScreeningID(pScreeningID);
+    public Screening(int pMovieID, String pDate, String pTime, long pPrice) {
+        this.setScreeningID();
         this.setMovieID(pMovieID);
         this.setDate(pDate);
         this.setTime(pTime);
         this.setPrice(pPrice);
     }
 
-    private void setScreeningID(int pScreeningID) {
+    private void setScreeningID() {
         totalScreenings++;
         this.aScreeningID = totalScreenings;
     }

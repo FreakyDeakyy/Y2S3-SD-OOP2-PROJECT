@@ -17,6 +17,6 @@ public class HelloApplication extends Application {
         stage.setTitle("Main Page");
         stage.setScene(scene);
         stage.show();
-        TestingHelper.testMovieCreation();
+        TestingHelper.testAll();
     }
 }
