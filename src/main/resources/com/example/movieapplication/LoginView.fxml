@@ -14,9 +14,9 @@
          </font>
       </Text>
       <Text fill="WHITE" layoutX="97.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <TextField layoutX="97.0" layoutY="122.0" prefHeight="17.0" prefWidth="238.0" />
+      <TextField layoutX="97.0" layoutY="122.0" prefHeight="17.0" prefWidth="238.0" style="-fx-background-color: #B10404; -fx-text-fill: white;" />
       <Text fill="WHITE" layoutX="97.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <TextField layoutX="97.0" layoutY="209.0" prefHeight="17.0" prefWidth="238.0" />
+      <TextField layoutX="97.0" layoutY="209.0" prefHeight="17.0" prefWidth="238.0" style="-fx-background-color: #B10404; -fx-text-fill: white;" />
       <Button layoutX="256.0" layoutY="276.0" mnemonicParsing="false" style="-fx-background-color: #B10404;" text="Sign Up" textFill="WHITE" />
       <Text fill="WHITE" layoutX="107.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?" />
       <Button layoutX="53.0" layoutY="344.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #B10404;" text="Back" textFill="WHITE">
