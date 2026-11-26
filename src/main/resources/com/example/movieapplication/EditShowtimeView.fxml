@@ -8,34 +8,36 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="360.0" style="-fx-background-color: #343639;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="360.0" styleClass="app-background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Text fill="WHITE" layoutX="103.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Showtime">
          <font>
             <Font size="24.0" />
          </font>
       </Text>
-      <TextField layoutX="61.0" layoutY="122.0" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #B10404; -fx-text-fill: white;" />
-      <TextField layoutX="216.0" layoutY="122.0" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #B10404; -fx-text-fill: white;" />
+      <TextField layoutX="61.0" layoutY="122.0" prefHeight="26.0" prefWidth="84.0" styleClass="red-text-field" />
+      <TextField layoutX="216.0" layoutY="122.0" prefHeight="26.0" prefWidth="84.0" styleClass="red-text-field" />
       <Text fill="WHITE" layoutX="90.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hour" />
       <Text fill="WHITE" layoutX="239.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minute" />
       <Text fill="WHITE" layoutX="149.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show Room" />
-      <MenuButton layoutX="110.0" layoutY="218.0" mnemonicParsing="false" style="-fx-background-color: #B10404;" text="MenuButton" textFill="WHITE">
-        <items>
-          <MenuItem mnemonicParsing="false" text="Action 1" />
-          <MenuItem mnemonicParsing="false" text="Action 2" />
-        </items>
+      <MenuButton layoutX="99.0" layoutY="218.0" mnemonicParsing="false" styleClass="red-control" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
          <font>
             <Font size="17.0" />
          </font>
       </MenuButton>
-      <Button layoutX="82.0" layoutY="308.0" mnemonicParsing="false" style="-fx-background-color: #B10404;" text="Cancel" textFill="WHITE">
+      <Button layoutX="82.0" layoutY="308.0" mnemonicParsing="false" styleClass="red-control" text="Cancel">
          <font>
             <Font size="17.0" />
-         </font></Button>
-      <Button layoutX="203.0" layoutY="308.0" mnemonicParsing="false" style="-fx-background-color: #B10404;" text="Submit" textFill="WHITE">
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="308.0" mnemonicParsing="false" styleClass="red-control" text="Submit">
          <font>
             <Font size="17.0" />
-         </font></Button>
+         </font>
+      </Button>
    </children>
 </AnchorPane>
