@@ -1,0 +1,69 @@
+.app-background {
+  -fx-background-color: #343639;
+}
+
+.red-control {
+  -fx-background-color: #b10404;
+  -fx-background-radius: 6;
+  -fx-background-insets: 0;
+  -fx-border-color: black;
+  -fx-border-radius: 4;
+  -fx-border-insets: 0;
+  -fx-border-width: 2;
+  -fx-padding: 5 10;
+  -fx-text-fill: white;
+}
+
+.red-control .label {
+  -fx-text-fill: white;
+}
+
+.red-control .arrow {
+  -fx-background-color: white;
+}
+
+.red-text-field {
+  -fx-background-color: #b10404;
+  -fx-background-radius: 5;
+  -fx-border-color: black;
+  -fx-border-radius: 4;
+  -fx-border-width: 2;
+  -fx-text-fill: white;
+}
+
+.slate-panel {
+  -fx-background-color: #94a3b8;
+  -fx-background-radius: 5;
+  -fx-border-color: black;
+  -fx-border-radius: 4;
+  -fx-border-width: 2;
+}
+
+.black-border {
+  -fx-border-color: black;
+}
+
+.transparent-icon {
+  -fx-background-color: transparent;
+  -fx-padding: 0;
+  -fx-max-width: 20;
+}
+
+.page-title {
+  -fx-text-fill: white;
+  -fx-font-size: 18px;
+}
+
+.section-title {
+  -fx-text-fill: white;
+  -fx-font-size: 21px;
+}
+
+.login-button {
+  -fx-font-size: 17px;
+  -fx-height: 30px;
+}
+
+.menu-icon {
+  -fx-font-size: 25px;
+}
