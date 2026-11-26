@@ -31,10 +31,18 @@ public class TestingHelper {
         alert.showAndWait();
     }
 
+    public static void testUserCreation() {
+        AbstractUser testCustomer = new Customer("test@example.com", "John", "Doe", "password");
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setContentText("user: " + testCustomer.toString());
+        alert.showAndWait();
+    }
+
     public static void testAll() {
         testMovieCreation();
         testScreeningCreation();
         testTicketCreation();
         testScreeningRoom();
+        testUserCreation();
     }
 }

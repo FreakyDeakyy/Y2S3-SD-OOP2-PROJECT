@@ -21,22 +21,18 @@ public class Manager extends AbstractUser {
         return aManagerID;
     }
 
-    @Override
     public void setUserID() {
         rand.nextInt(9999);
     }
 
-    @Override
     public void setEmail() {
 
     }
 
-    @Override
     public void setFirstName() {
 
     }
 
-    @Override
     public void setLastName() {
 
     }
