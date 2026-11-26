@@ -38,11 +38,19 @@ public class TestingHelper {
         alert.showAndWait();
     }
 
+    public static void testManagerCreation() {
+        AbstractUser testManager = new Manager("test@example.com", "John", "Doe", "password", 1234);
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setContentText("manager: " + testManager.toString());
+        alert.showAndWait();
+    }
+
     public static void testAll() {
         testMovieCreation();
         testScreeningCreation();
         testTicketCreation();
         testScreeningRoom();
         testUserCreation();
+        testManagerCreation();
     }
 }
