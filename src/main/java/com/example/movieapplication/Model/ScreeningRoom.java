@@ -36,4 +36,10 @@ public class ScreeningRoom {
     public int getScreeningRoomCapacity() {
         return this.aScreeningRoomCapacity;
     }
+
+    @Override
+    public String toString() {
+        return "Room ID: " + getScreeningRoomID() + ", Room Name: " + getScreeningRoomName() + ", Room Capacity: " + getScreeningRoomCapacity();
+    }
+
 }
