@@ -10,18 +10,19 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="600.0" styleClass="app-background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="600.0" styleClass="app-background" stylesheets="@css/application.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="68.0" fitWidth="95.0" layoutX="14.0" layoutY="17.0" opacity="0.35" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@image.png" />
+            <Image url="@../../images/image.png" />
          </image>
       </ImageView>
       <Button layoutX="459.0" layoutY="14.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="135.0" text="Login/Sign Up">
          <styleClass>
             <String fx:value="login-button" />
             <String fx:value="red-control" />
-         </styleClass></Button>
+         </styleClass>
+      </Button>
       <HBox layoutX="67.0" layoutY="134.0" prefHeight="225.0" prefWidth="483.0" styleClass="app-background">
          <children>
             <VBox alignment="CENTER_LEFT" prefHeight="225.0" prefWidth="35.0">
@@ -40,7 +41,7 @@
                      <children>
                         <ImageView fitHeight="150.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@PlaceHolderMovieImage.jpg" />
+                              <Image url="@../../images/PlaceHolderMovieImage.jpg" />
                            </image>
                         </ImageView>
                      </children>
@@ -70,7 +71,7 @@
                      <children>
                         <ImageView fitHeight="150.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@PlaceHolderMovieImage.jpg" />
+                              <Image url="@../../images/PlaceHolderMovieImage.jpg" />
                            </image>
                         </ImageView>
                      </children>
@@ -100,7 +101,7 @@
                      <children>
                         <ImageView fitHeight="150.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@PlaceHolderMovieImage.jpg" />
+                              <Image url="@../../images/PlaceHolderMovieImage.jpg" />
                            </image>
                         </ImageView>
                      </children>

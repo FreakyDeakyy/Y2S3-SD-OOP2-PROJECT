@@ -2,6 +2,10 @@
   -fx-background-color: #343639;
 }
 
+.text-color {
+  -fx-text-fill: white;
+}
+
 .red-control {
   -fx-background-color: #b10404;
   -fx-background-radius: 6;
