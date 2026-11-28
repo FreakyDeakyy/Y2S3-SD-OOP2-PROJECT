@@ -1,8 +1,9 @@
 package com.example.movieapplication.Model;
 
 /**
- * Defines the contract for a user in the movie application.
- * Classes implementing this interface must provide access to core user identification and profile details.
+ * Defines the contract for a user in the movie application. Classes
+ * implementing this interface must provide access to core user identification
+ * and profile details.
  */
 public interface User {
 
